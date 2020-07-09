@@ -1,0 +1,168 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font-weight: 300;
+	background:#26191b;
+  }
+h1,h2,h3,h4,h5,h6,p,ul{
+	margin: 0px;
+	padding: 0px;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width:100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.box1{
+	width:600px;
+	height:300px;
+	background-color:#fb7813;
+	margin:0 auto;
+	margin-top:5%;
+	color:#ffffff;
+	padding-left:10px;
+	box-shadow: 0 0 10px #000000;
+}
+.text{
+	font-family: 'Merriweather', serif;
+	text-align: center;
+    padding-top:20px;
+    font-size: 30px;
+}
+.text h1{
+	letter-spacing:3px;
+}
+.box2{
+	width:600px;
+	
+	background-color: #ffffff;
+	margin:0 auto;
+}
+.links{
+	display:flex;
+	justify-content:space-around;
+
+}
+.box2 ul li{
+	list-style: none;
+}
+
+.button{
+	background:transparent;
+	border:transparent;
+	font-size: 25px;
+  	font-family: 'Merriweather', serif;
+  	color:#fb7813;
+  	transition:all 0.5s ease;
+  	outline: none;
+  	cursor:pointer;
+  	padding: 10px;
+}
+.button:hover{
+	color:#ffffff;
+	background-color: #fb7813;
+}
+.hardbutton{
+ display: flex;
+  justify-content: center;
+}
+
+.button1:hover{
+	color:#ffffff;
+	background-color: #fb7813;
+}
+.easy{
+	display:flex;
+	justify-content: center;
+	margin:0 auto;
+	display:none;
+	
+}
+.medium
+	{
+	display:flex;
+	justify-content: center;
+	margin:0 auto;
+	display:none;
+}
+.hard{
+	display:flex;
+	justify-content: center;
+	margin:0 auto;
+	display:none;
+}
+.one{
+	width:300px;
+	height:200px;
+	background-color: #f1f1f1;
+	border-radius: 50%;
+	margin:20px;
+
+	
+}
+.two{
+	width:300px;
+	height:200px;
+	background-color: #f1f1f1;
+	border-radius: 50%;
+	margin:20px;
+}
+.three{
+	width:300px;
+	height:200px;
+	background-color: #f1f1f1;
+	border-radius: 50%;
+	margin:20px;
+}
+.four{
+	width:300px;
+	height:200px;
+	background-color: #f1f1f1;
+	border-radius: 50%;
+	margin:20px;
+}
+.five{
+	width:300px;
+	height:200px;
+	background-color: #f1f1f1;
+	border-radius: 50%;
+	margin:20px;
+}
+.six{
+	width:300px;
+	height:200px;
+	background-color: #f1f1f1;
+	border-radius: 50%;
+	margin:20px;
+}
+.seven{
+	width:300px;
+	height:200px;
+	background-color: #f1f1f1;
+	border-radius: 50%;
+	margin:20px;
+}
+.eight{
+	width:300px;
+	height:200px;
+	background-color: #f1f1f1;
+	border-radius: 50%;
+	margin:20px;
+}
+.nine{
+	width:300px;
+	height:200px;
+	background-color: #f1f1f1;
+	border-radius: 50%;
+	margin:20px;
+}
