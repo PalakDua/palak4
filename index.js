@@ -90,21 +90,10 @@ hard.addEventListener('click',function(){
      hexcol3+=colors[random3];
      console.log(hexcol3);
      three.style.backgroundColor=hexcol3;
-    three();
+   
      }
-   function three(){
-    three.addEventListener("click",threecolors);
-  }
-   function threecolors(){
-        if(hexcol3 === p1.innerHTML){
-          p2.innerHTML="correct";
-          one.style.backgroundColor = hexcol3;
-          two.style.backgroundColor = hexcol3;
-            box1.style.backgroundColor = hexcol3;
-            news.textContent="Play again?";
-            
-           }
-         }
+ 
+  
  for(i=0;i<6;i++){
    	
     	let random4=Math.floor(Math.random()*colors.length);
